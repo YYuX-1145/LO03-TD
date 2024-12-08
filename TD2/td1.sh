@@ -1,5 +1,5 @@
 if [ ! -d ".poubelle" ];then
-	mkdir .pobelle
+	mkdir .poubelle
 fi
 for item in "$@"; do
 	base_name=$(basename "$item")
